@@ -5,7 +5,7 @@ import { IoApps } from "react-icons/io5";
         <header className ={classes.item}>
             <a href="/">Gmail</a>
             <a href="/">Images</a>
-            <span><IoApps/></span>
+            <IoApps className={classes.icon}/>
             <a href="/"><button className={classes.btn}>SignUp</button></a>
         </header>
         
