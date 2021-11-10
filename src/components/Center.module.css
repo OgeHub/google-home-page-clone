@@ -1,0 +1,135 @@
+.center {
+    text-align: center;
+}
+
+.logo {
+    width: 272px;
+    height: 93px;
+}
+
+.newLogo {
+    font-size: 2.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(46, 26, 235);
+}
+
+.mic {
+    width: 15px;
+    height: 17.5px;
+    cursor: pointer;
+}
+
+.midDiv {
+    margin: 30px;
+    padding: 5px;
+    width: 40%;
+    border: 0.1px solid #d8d5d5 ;
+    border-radius: 20px;
+    margin-left: 390px;
+}
+
+.midDiv:hover, .midDiv:focus{
+    border: none;
+    box-shadow: 0 0 5px 0 #888888;
+}
+
+.lens{
+    opacity: 0.5;
+    width: 26;
+    height: 20;
+}
+
+.inDiv {
+    display: inline;
+    margin: 0 9px 0 9px;
+    padding: 0;
+    border: 0;
+}
+
+.in {
+    width: 30.5rem;
+    height: 2rem;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.in:focus {
+    outline: none;
+}
+
+.btnDiv {
+    margin-bottom: 14px;
+    margin-top: 0;
+}
+
+.btnDiv button {
+    padding: 12px 15px;
+    border: none;
+    background-color: #fcf8f8;
+    box-shadow: 0 0 9px 0 #fcf8f8;
+    margin: 0 13px;
+    font-size: 14px;
+}
+
+.btnDiv button:hover {
+    cursor: pointer;
+    outline: 1px solid #dad7d7;
+    border-radius: 3px;
+}
+
+.lang {
+    margin-top: 23px;
+}
+
+.lang a {
+    font-size: small;
+    padding: 5px;
+    text-decoration: none;
+    color: #3838b9;
+}
+
+.lang a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        width:150px;
+        height: 38px;
+    }
+
+    .newLogo {
+        font-size: 1.2rem;
+    }
+    .midDiv {
+        width: 85%;
+        margin-left: 15px;
+    }
+    .mic {
+        width: 7px;
+        height: 10px;
+    }
+    .in {
+        width: 13.5rem;
+        height: 1rem;
+        font-size: 10px;
+    }
+    .lens{
+        width: 13px;
+        height: 10px;
+    }
+    .btnDiv button {
+        padding: 6px 7.5px;
+        font-size: 8.8px;
+    }
+    .lang p {
+        font-size: 11px;
+    }
+    .lang a {
+        font-size: xx-small;
+    }
+
+}
