@@ -42,12 +42,12 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 .item a {
     font-size: x-small;
 }
 .btn {
     padding: 2px;
-    font-size: xx-small;
+    font-size: x-small;
 }
   }
