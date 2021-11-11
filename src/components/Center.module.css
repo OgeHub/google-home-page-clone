@@ -95,7 +95,7 @@
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px)  {
     .logo {
         width:150px;
         height: 38px;
@@ -132,4 +132,28 @@
         font-size: xx-small;
     }
 
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1333px) {
+    .in {
+        width: 21.5rem;
+        height: 1rem;
+        font-size: 13px;
+    }
+    .midDiv {
+        margin-left: 330px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 946px) {
+    .in {
+        width: 20.5rem;
+        height: 1rem;
+        font-size: 12px;
+    }
+
+    .midDiv {
+        width: 50%;
+        margin-left: 200px;
+    }
 }

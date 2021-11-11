@@ -89,3 +89,17 @@
         margin-right: 0;
     }
 }
+
+@media only screen and (min-width: 767px) and (max-width: 946px) {
+    .fin1 {
+        margin-left: 12px;
+     }
+     
+     .fin2 {
+         margin-right: 71px;
+     }
+     
+     .fin3 {
+         margin-right: 18px;
+     }
+}
